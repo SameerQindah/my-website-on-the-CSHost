@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+</head>
+<body>
+    <header>
+        <h1>Create Profile</h1>
+        <h2><a href="./index.html">Community of practice Page</a></h2>
+    </header>
+    <main>
+        <form action="http://yhassouneh.studentprojects.ritaj.ps/util/process.php" method="post">
+            <label for="name">username</label>
+            <input type="text" id="name" name="name" required placeholder="username" minlength="5" maxlength="20"/>
+            <br/>
+
+            <label for="photo">Personal Photo</label>
+            <input type="file" id="photo" name="photo" required />
+            <br/>
+
+            <label for="bio"> brief bio</label>
+            <textarea id="bio" name="bio" placeholder="Enter your brief bio" required maxlength="50" minlength="30"></textarea>
+            <br/>
+
+            <input type="submit" value="create Profile"/>
+        </form>
+    </main>
+
+    <footer>
+        <h2>Concat Me</h2>
+        <p><strong>Phone Number :</strong><a href="tel:+972566703961">+972566703961</a></p>
+        <p><strong>Email</strong> :<a href="mailto:abood.qasrawi222@gmail.com">abood.qasrawi222@gmail.com</a></p>
+        <p>&copy; 2025 Abdallah Alqasarwi. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
